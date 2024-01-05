@@ -2,34 +2,34 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", serif;
 }
 
 .navbar {
 display: flex;
-align-items: center;
 list-style: none;
-justify-content: space-around;
 background-color: #1f2937;
 color: white;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 .logo {
-    margin: 30px;
+    margin: 20px;
+    font-size: 24px;
+    color: F9FAF8;
 }
 
 header * {
-    display: inline;
-    margin: auto;
-}
-
-li {
-  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
 }
 
 li a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 li a:hover {
@@ -38,8 +38,50 @@ li a:hover {
 
 .maincard {
     background-color: #1f2937;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.maincard h1 {
     font-size: 48px;
-    font-weight: bolder;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    color: #F9FAF8;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 450px;
+    border: 1px solid red;
+  
+}
+
+.maincard p {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    width: 450px;
+    border: 1px solid red;
+}
+
+.maincard img {
+    align-self:flex-end;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-self: flex-end;
+}
+
+.maincard button {
+   color:#F9FAF8;
+   background-color: #3882f6;
+   width: 130px;
+   height: 40px;
+   padding: 20px;
+   border-radius: 12px
+}
+
+footer {
+    display: flex;
+    background-color: #1f2937;
+    color:#F9FAF8;
+    font-size: 18px;
+    justify-content: center;
 }
