@@ -39,19 +39,17 @@ li a:hover {
 .maincard {
     background-color: #1f2937;
     display: flex;
-    flex-direction: column;
-    justify-items: center;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
-
 .maincard h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
-    justify-content: center;
     flex-wrap: wrap;
     width: 450px;
     border: 1px solid red;
-  
 }
 
 .maincard p {
@@ -63,10 +61,8 @@ li a:hover {
 }
 
 .maincard img {
-    align-self:flex-end;
     flex-grow: 0;
     flex-shrink: 0;
-    justify-self: flex-end;
 }
 
 .maincard button {
@@ -75,7 +71,9 @@ li a:hover {
    width: 130px;
    height: 40px;
    padding: 20px;
-   border-radius: 12px
+   border-radius: 12px;
+   align-self: flex-start;
+   
 }
 
 footer {
